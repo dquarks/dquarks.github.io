@@ -1,0 +1,51 @@
+
+@font-face {
+  font-family: VCR;
+  src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+body{
+  text-align: center;
+  background: #1a1a1a;
+  font-family: VCR;
+  font-weight: 100;
+}
+
+h1{
+  position: fixed;
+  color: #d9dfdb;
+  font-weight: 100;
+  font-size: 50px;
+  margin: 100px 0px 0px;
+  left: 55%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+}
+
+#clockdiv{
+    position: fixed;
+    font-family: VCR;
+    color: #d9dfdb;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#clockdiv > div{
+    background: inherit;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    background: inherit;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
