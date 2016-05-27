@@ -55,10 +55,10 @@ h1{
 }
 
 #social-media > ul {
-  position: relative;
+  position: fixed;
   list-style: none;
   display: inline-block;
-  transform: translate(-15%, 1900%);
+  transform: translate(-65%, 1500%);
 
 }
 
