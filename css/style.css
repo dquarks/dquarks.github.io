@@ -15,9 +15,9 @@ h1{
   position: fixed;
   color: #d9dfdb;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 20px;
   margin: 100px 0px 0px;
-  left: 55%;
+  left: 50%;
   top: 15%;
   transform: translate(-50%, -50%);
 }
@@ -48,4 +48,26 @@ h1{
 .smalltext{
     padding-top: 5px;
     font-size: 16px;
+}
+
+#social-media {
+  color: #d9dfdb;
+}
+
+#social-media > ul {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  transform: translate(-15%, 1900%);
+
+}
+
+#social-media ul > li {
+  display: inline-block;
+
+}
+
+a {
+  text-decoration: none;
+  color: #d9dfdb;
 }
