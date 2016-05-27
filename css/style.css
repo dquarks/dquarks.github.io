@@ -6,7 +6,7 @@
 
 body{
   text-align: center;
-  background: #1a1a1a;
+  background: black;
   font-family: VCR;
   font-weight: 100;
 }
@@ -20,6 +20,10 @@ h1{
   left: 50%;
   top: 15%;
   transform: translate(-50%, -50%);
+}
+
+#site-logo {
+  display: inline-block;
 }
 
 #clockdiv{
@@ -51,14 +55,16 @@ h1{
 }
 
 #social-media {
+  position: fixed;
   color: #d9dfdb;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 #social-media > ul {
-  position: fixed;
   list-style: none;
-  display: inline-block;
-  transform: translate(-65%, 1500%);
 
 }
 
