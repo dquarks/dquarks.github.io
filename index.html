@@ -1,48 +1,53 @@
-<html>
+<html lang='en-US'>
   <head>
-    <title>SloppyNY</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
-    <script src="https://use.fontawesome.com/dff859bc22.js"></script>
+    <meta charset='utf-8'>
+    <title>sloppyNY</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' href='assets/css/bstyle.min.css'>
+    <link rel='stylesheet' type='text/css' href='assets/css/styl.css'>
   </head>
+
   <body>
-    <!--<img class="site-logo" src="css/imgs/sloppy_logo.png" width="450"></img>-->
-    <h1>coming soon...</h1>
-    <div id ="social-media">
-      <ul>
-        <li>
-          <a href="#" target="_blank">
-            <i class="fa fa-facebook-official fa-2x">
-            </i>
-          </a>
-        </li>
-        <li>
-          <a href="http://sloppyny.tumblr.com/" target="_blank">
-            <i class="fa fa-tumblr-square fa-2x">
-            </i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/sloppy.2nds/" target="_blank">
-            <i class="fa fa-instagram fa-2x">
-            </i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/channel/UCYRnN7gbFc3RT_66Jao7wfQ" target="_blank">
-            <i class="fa fa-youtube-square fa-2x">
-            </i>
-          </a>
-        </li>
+    <!--<nav class='navbar navbar-inverse' style='background-color: inherit;'>
+      <div class='container-fluid'>
+        <div class='navbar-header'>
+          <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#sloppyBar' aria-expanded='false'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+        </div>
+
+        <div class='collapse navbar-collapse' id='sloppyBar'>
+          <ul class='nav navbar-nav navbar-left'>
+            <li><a href='#'>Home</a></li>
+            <li><a href='#'>Shop</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>-->
+    <div id="core">
+      <div class='container'>
+        <div class='embed-responsive embed-responsive-16by9'>
+          <!-- Put embed iFrame here -->
+          <iframe class='embed-responsive-item' src='https://www.youtube.com/embed/eCIKodGhHag?controls=1&amp;showinfo=0&rel=0&autoplay=1'></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <ul class="nav_links">
+        <li><a href="#">Home</a></li>
+        <!-- http://shop.sloppyny.com -->
+        <li><a href="#">Shop (coming soon)</a></li>
+        <!--<li><a href="#">Music (coming soon)</a></li>-->
       </ul>
     </div>
-    <div id = "clockdiv">
-      <div class="days"></div>
-      <div class="hours"></div>
-      <div class="minutes"></div>
-      <div class="seconds"></div>
-    </div>
-    <script type="text/javascript" src="js/clock.js"></script>
+    <script src='assets/scripts/japp.js'></script>
+    <script src='assets/scripts/bapp.js'></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    -->
   </body>
+  <script>$(".container").hide().fadeIn(8000)</script>
 </html>

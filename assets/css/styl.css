@@ -1,0 +1,36 @@
+@font-face {
+  font-family: VCR;
+  src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+body {
+  background-color: #161616;
+  font-family: VCR;
+  font-weight: 100;
+}
+
+#core {
+  padding-top: 60px;
+}
+
+.nav_links {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.nav_links > li {
+  display: inline;
+  padding-right: 30px;
+}
+
+.nav_links > li > a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #ACACAC;
+}
+
+.nav_links > li > a:hover {
+  color: white;
+}
