@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #161616;
+  background-color: black;
   font-family: VCR;
   font-weight: 100;
 }
@@ -13,11 +13,36 @@ body {
   padding-top: 60px;
 }
 
+#logo {
+  text-align: center;
+  display:block;
+    max-width: 300px;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.sloppy_logo {
+  background-image: src(BlackHardCockEDIT.psd);
+  height: 150px;
+  width: 150px;
+  background-color: white;
+}
+
 .nav_links {
   list-style-type: none;
   text-align: center;
   padding-top: 30px;
 
+}
+img {
+  width: 200px;
+  height: 150px;
+  padding-top: 5px;
+  margin-bottom: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .nav_links > li {
