@@ -52,6 +52,11 @@ h2 {
   text-align: left;
 }
 
+.musics {
+
+  max-width: 500px;
+}
+
 .nav_links {
   list-style-type: none;
   text-align: center;
