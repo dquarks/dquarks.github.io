@@ -54,6 +54,10 @@ h2 {
   text-align: left;
 }
 
+.video {
+  max-width: 940px;
+}
+
 .media {
 
   color: #e1d6ca;
@@ -86,7 +90,7 @@ h2 {
 
 .nav_links > li {
   display: inline;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 .nav_links > li > a {
