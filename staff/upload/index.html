@@ -1,7 +1,7 @@
 <html lang='en-US'>
   <head>
     <meta charset='utf-8'>
-    <title>SLOPPY NEWYORK</title>
+    <title>STAFF - UPLOAD</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <!--
 
@@ -27,31 +27,12 @@
     <link rel='stylesheet' type='text/css' href='http://sloppyny.com/assets/css/styl.css'>
   </head>
   <body>
-      <div class="container">
-          <a href="http://sloppyny.com/"><img src="http://sloppyny.com/assets/images/BlackHardCockEDIT.png"></img></a>
-      </div>
-    <div id="core">
-      <div class='container terms'>
-        <h1>CONTACT INFORMATION</h1>
-        <br>
-        <br>
-        <p style="text-align: center;">
-          PLEASE FORWARD ALL BUSINESS-RELATED INQUIRIES TO SLOPPYSECONDS96@GMAIL.COM
-        </p>
-        <br>
-        <br>
-      </div>
-    </div>
-    <div class="container">
-      <ul class="nav_links">
-        <!--<li><a href="#">Home</a></li>-->
-        <!-- http://shop.sloppyny.com -->
-        <li><a href="https://shop.sloppyny.com/collections/all">BUY SHIT</a></li>
-        <li><a href="../tunes/">TUNES</a></li>
-        <li><a href="../media/">MEDIA</a></li>
-        <li><a href="../info/">INFO</a></li>
-        <li><a id="active_link" href="#">CONTACT</a></li>
-      </ul>
+    <div class='container'>
+        <h1>Staff Upload Portal</h1>
+        <form id="labnol">
+            <input type="file" name="myFile">
+            <input type="submit" id="uploadFile" value="Upload File" onclick="this.value='Uploading..';uploadFile();">
+        </form>
     </div>
     <script src='http://sloppyny.com/assets/scripts/japp.js'></script>
     <script src='http://sloppyny.com/assets/scripts/bapp.js'></script>
@@ -67,4 +48,22 @@
     ga('send', 'pageview');
 
   </script>
+  <script>
+
+  // The function will be called after the form is submitted
+  function uploadFile() {
+    document.getElementById('uploadFile').value = "Uploading File..";
+    google.script.run
+       .withSuccessHandler(fileUploaded)
+       .uploadFiles(document.getElementById("labnol"));
+    return false;
+  }
+
+  // This function will be called after the Google Script has executed
+  function fileUploaded(status) {
+    document.getElementById('labnol').style.display = 'none';
+    document.getElementById('output').innerHTML = status;
+  }
+
+</script>
 </html>
