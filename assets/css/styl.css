@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #0c0c0c;
+  background-color: #BF6374;
   font-family: VCR;
 }
 
@@ -55,7 +55,11 @@ h2 {
 }
 
 .video {
-  max-width: 940px;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  max-height: 100%;
+  border: none;
 }
 
 .media {
