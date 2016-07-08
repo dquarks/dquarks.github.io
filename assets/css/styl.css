@@ -55,8 +55,7 @@ h2 {
 }
 
 .video {
-  width: 100%;
-  height: auto;
+  width: 95%;
   border: none;
 }
 
@@ -86,7 +85,7 @@ h2 {
 .nav_links {
   list-style-type: none;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 35px;
 
 }
 
