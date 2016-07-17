@@ -18,6 +18,16 @@ img {
   display: block;
 }
 
+.face {
+  position: absolute;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 100px;
+  left: 400px;
+  z-index: 1;
+}
+
 h1 {
   color: #e1d6ca;
   font-size: 18px;
@@ -119,4 +129,27 @@ h2 {
   text-align: center;
   margin: 0 auto;
   font-style: italic;
+}
+
+#clockdiv{
+    position: fixed;
+    font-family: VCR;
+    color: #d9dfdb;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%, -50%);
+}
+
+#clockdiv > div{
+    background: inherit;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    background: inherit;
+    display: inline-block;
 }
