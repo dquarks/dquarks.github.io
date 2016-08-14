@@ -4,19 +4,22 @@
 }
 
 body {
-  background-color: #BF6374;
+  background-color: black;
+  background-image: url("BlackHardCockEDIT.png");
+  background-repeat: repeat;
+  background-size: 150px 75px;
   font-family: VCR;
 }
 
-img {
-  width: 450px;
+/*img {
+  width: 150px;
   height: 180px;
   padding-top: 1px;
   margin-bottom: -90px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-}
+}*/
 
 .face {
   position: absolute;
@@ -29,7 +32,7 @@ img {
 }
 
 h1 {
-  color: #e1d6ca;
+  color: #4a4744;
   font-size: 18px;
   font-weight: 0;
   text-align: center;
@@ -45,7 +48,7 @@ h2 {
 }
 
 #core {
-  padding-top: 60px;
+  padding-top: 140px;
 }
 
 #logo {
@@ -95,7 +98,7 @@ h2 {
 .nav_links {
   list-style-type: none;
   text-align: center;
-  padding-top: 35px;
+  padding-top: 10px;
 
 }
 
@@ -106,7 +109,7 @@ h2 {
 
 .nav_links > li > a {
   text-decoration: none;
-  color: #e1d6ca;
+  color: #242321;
 }
 
 .nav_links > li > a:hover {
@@ -129,6 +132,55 @@ h2 {
   text-align: center;
   margin: 0 auto;
   font-style: italic;
+}
+
+#homeFx1 {
+  background-image: url("graphic_1.png");
+  width: 150px;
+  height:300px;
+  display: inherit;
+}
+
+#homeFx1:hover {
+  background-image: url("graphic_hover_1.png");
+}
+
+.homeFx2 {
+  width: 130px;
+  height:350px;
+  display: inherit;
+}
+
+.homeFx3 {
+  width: 180px;
+  height:350px;
+  display: inherit;
+}
+
+.homeFx4 {
+  width: 130px;
+  height:350px;
+  display: inherit;
+}
+
+#buyBtn {
+  width: 105px;
+  height: 35px;
+}
+
+#tunesBtn {
+  width: 90px;
+  height: 30px;
+}
+
+#mediaBtn {
+  width: 80px;
+  height: 30px;
+}
+
+#infoBtn {
+  width: 75px;
+  height: 25px;
 }
 
 #clockdiv{
