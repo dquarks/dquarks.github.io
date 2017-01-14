@@ -1,14 +1,16 @@
 @font-face {
-  font-family: VCR;
-  src: url(VCR_OSD_MONO_1.001.ttf);
+  font-family: Walbaum-Fraktur;
+  src: url(Walbaum-Fraktur.ttf);
 }
 
 body {
-  background-color: black;
-  background-image: url("BlackHardCockEDIT.png");
+  background-color: white;
+  background-image: url("space_stars4.gif");
   background-repeat: repeat;
-  background-size: 150px 75px;
-  font-family: VCR;
+  background-size: 120px 120px;
+  font-family: Walbaum-Fraktur;
+  overflow-x: hidden;
+  /*overflow-y: hidden;*/
 }
 
 /*img {
@@ -32,15 +34,15 @@ body {
 }
 
 h1 {
-  color: #B18CFE;
-  font-size: 20px;
-  font-weight: 0;
+  color: #faffb3;
+  font-size: 40px;
+  font-weight: 500;
   text-align: center;
 }
 
 h2 {
   color: #e1d6ca;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 100;
   text-align: center;
   text-decoration: underline;
@@ -48,7 +50,7 @@ h2 {
 }
 
 #core {
-  padding-top: 140px;
+  padding-top: 100px;
 }
 
 #logo {
@@ -62,63 +64,134 @@ h2 {
 
 .terms {
 
-  color: #e1d6ca;
-  max-width: 500px;
-  text-align: left;
+  color: #ffefe7;
+  max-width: 700px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .video {
   width: 95%;
-  border: none;
 }
 
-.media {
-
-  color: #e1d6ca;
+.mediax {
+  color: #fff3da;
   max-width: 500px;
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
 }
 
-.media > p > a {
+.mediax > p > a {
   text-decoration: none;
   color: inherit;
 }
 
-.media > p > a:hover {
-  color: #ffa100;
-  font-size: 15px;
+.mediax > p > a:hover {
+  color: #d6ccb7;
+  font-size: 25px;
 }
 
 .musics {
-
   max-width: 500px;
 }
 
 .nav_links {
+  position: absolute;
   list-style-type: none;
   text-align: center;
-  padding-top: 10px;
-
+  /*border-style: dotted;*/
+  font-size: 26px;
+  left: 50%;
+  top: 8%;
+  transform: translate(-50%, -50%);
 }
 
 .nav_links > li {
   display: inline;
-  padding-right: 20px;
+  padding-right: 18px;
+}
+
+/* Most smart phones */
+@media only screen and (max-device-width: 480px) {
+  .nav_links {
+    font-size: 23px;
+    white-space: nowrap;
+  }
+
+  .nav_links > li {
+    display: inline;
+    padding-right: 18px;
+  }
+}
+
+/* iPads */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .nav_links {
+    font-size: 35px;
+    white-space: nowrap;
+  }
+
+  .nav_links > li {
+    display: inline;
+    padding-right: 18px;
+  }
+
+  body {
+    background-color: white;
+    background-image: url("space_stars4.gif");
+    background-repeat: repeat;
+    background-size: 350px 350px;
+    /*font-family: Walbaum-Fraktur;*/
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+  }
+
+  .terms {
+    margin-top: 55px;
+    color: #ffefe7;
+    max-width: 700px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .mediax {
+    margin-top: 55px;
+    color: #fff3da;
+    max-width: 500px;
+    font-size: 55px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #faffb3;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  h2 {
+    color: #e1d6ca;
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: underline;
+    /* padding-right: 85px; */
+  }
 }
 
 .nav_links > li > a {
   text-decoration: none;
-  color: #242321;
+  color: #fff3da;
 }
 
 .nav_links > li > a:hover {
-  color: #ffa100;
+  color: #d6ccb7;
 }
 
 #active_link {
-  color: #ffa100;
-  font-weight: bold;
+  color: #a49c8c;
+  font-weight: 0;
+  text-decoration: none;
 }
 
 #disabled_link {
@@ -127,72 +200,30 @@ h2 {
 }
 
 .tiny_note {
-  font-size: 9px;
-  max-width: 300px;
+  font-size: 17px;
+  max-width: 500px;
   text-align: center;
   margin: 0 auto;
   font-style: italic;
 }
 
-#homeFx1 {
-  background-image: url("graphic_1.png");
-  width: 150px;
-  height:300px;
-  display: inherit;
-}
-
-#homeFx1:hover {
-  background-image: url("graphic_hover_1.png");
-}
-
-.homeFx2 {
-  width: 130px;
-  height:350px;
-  display: inherit;
-}
-
-.homeFx3 {
-  width: 180px;
-  height:350px;
-  display: inherit;
-}
-
-.homeFx4 {
-  width: 130px;
-  height:350px;
-  display: inherit;
-}
-
-#buyBtn {
-  width: 105px;
-  height: 35px;
-}
-
-#tunesBtn {
-  width: 90px;
-  height: 30px;
-}
-
-#mediaBtn {
-  width: 80px;
-  height: 30px;
-}
-
-#infoBtn {
-  width: 75px;
-  height: 25px;
+.centerLogo {
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
 }
 
 #clockdiv{
     position: fixed;
-    font-family: VCR;
-    color: #d9dfdb;
+    font-family: Walbaum-Fraktur;
+    color: white;
     display: inline-block;
     font-weight: bold;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     left: 50%;
-    top: 33%;
+    top: 40%;
     transform: translate(-50%, -50%);
 }
 
@@ -205,3 +236,60 @@ h2 {
     background: inherit;
     display: inline-block;
 }
+
+/* Below this line is CSS for satelites */
+
+.sat {
+  position: fixed;
+  width: 65px;
+  height: 60px;
+}
+
+/*.sat_1 {
+  position: fixed;
+  width: 70px;
+  height: 60px;
+}
+.sat_2 {
+  position: fixed;
+  width: 70px;
+  height: 60px;
+  bottom: 500px;
+}
+.sat_3 {
+  position: fixed;
+  width: 70px;
+  height: 60px;
+}
+.sat_4 {
+  position: fixed;
+  width: 70px;
+  height: 60px;
+}
+.sat_5 {
+  position: fixed;
+  width: 70px;
+  height: 60px;
+}
+.sat_6 {
+  position: fixed;
+  width: 70px;
+  height: 60px;
+}
+.sat_7 {
+  position: fixed;
+  width: 70px;
+  height: 60px;
+}
+
+.sat_8 {
+  position: fixed;
+  width: 70px;
+  height: 60px;
+}
+
+.sat_9 {
+  position: fixed;
+  width: 70px;
+  height: 60px;
+}*/
