@@ -71,7 +71,7 @@ var cache = [
       var sat_h = (window_h * .085) + window_h - ((window_h / (cache.length/2))*((x/2)+1));
       $("#" + cache[x]).css({ "left" : "-20%",
                               "top": sat_h + "px",
-                              "z-index": "0",
+                              "z-index": "1",
                               "-ms-transform": "rotate(" + ang +"deg)",       /* IE 9 */
                               "-webkit-transform": "rotate(" + ang + "deg)", /* Chrome, Safari, Opera */
                               "transform": "rotate(" + ang + "deg)" });
@@ -85,6 +85,6 @@ var cache = [
       return;
     }
     configSatelites();
-    // forLoop();
-    //setObjParams("sat0");
+    //forLoop();
+    // setObjParams("sat0");
   });
