@@ -91,5 +91,5 @@ function startClock(id, b) {
   var timeinterval = setInterval(updateTime, 1000);
 }
 
-var deadline = 'August 31 2017';
+var deadline = 'September 01 2017';
 startClock('clockdiv', deadline);
