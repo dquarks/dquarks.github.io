@@ -4,16 +4,27 @@
 }
 
 body {
-  color: #171716;
+  color: black;
   background-color: white; /* #171716 */
   /*background-repeat: repeat;*/
-  background-size: 120px 120px;
+  /* background-size: 120px 120px; */
   font-family: Loopy;
   /* overflow-x: none */
 }
 
 .container {
   background-color: inherit;
+}
+
+#centermsg {
+  color: inherit;
+  position: fixed;
+  font-family: inherit;
+  text-align: center;
+  font-size: 45px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #clockdiv {
