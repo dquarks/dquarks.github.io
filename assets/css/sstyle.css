@@ -19,6 +19,10 @@ body {
       font-size: 17px;
       width: 50%;
    }
+   .zimg {
+     margin-right: 75px;
+     width: 300px;
+   }
 }
 
 @media only screen and (max-width: 768px) {
@@ -26,6 +30,10 @@ body {
    .main_ctn {
       font-size: 20px;
       width: 50%;
+   }
+   .zimg {
+     margin-right: 75px;
+     width: 300px;
    }
 }
 
@@ -35,6 +43,15 @@ body {
       font-size: 30px;
       width: 800px;
    }
+   .zimg {
+     margin-right: 75px;
+     width: 300px;
+   }
+}
+
+.zimg {
+  margin-right: 75px;
+  width: 600px;
 }
 
 a {
