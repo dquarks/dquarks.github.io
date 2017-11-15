@@ -8,7 +8,7 @@ body {
   background-color: white; /* #171716 */
   /*background-repeat: repeat;*/
   background-size: 120px 120px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Loopy;
   /* overflow-x: none */
 }
 
@@ -19,9 +19,6 @@ body {
       font-size: 17px;
       width: 50%;
    }
-   img {
-     width: 65%;
-   }
 }
 
 @media only screen and (max-width: 768px) {
@@ -29,9 +26,6 @@ body {
    .main_ctn {
       font-size: 20px;
       width: 50%;
-   }
-   img {
-     width: 65%;
    }
 }
 
@@ -41,14 +35,6 @@ body {
       font-size: 30px;
       width: 800px;
    }
-   img {
-     width: 65%;
-   }
-}
-
-img {
-  width: 60%;
-  margin-right: 85px;
 }
 
 a {
@@ -72,7 +58,7 @@ a:hover {
   /* width: 800px;*/
   vertical-align: middle;
   display: table-cell;
-  bottom: 100px;
+  bottom: 35px;
 }
 
 .left_btn {
@@ -106,8 +92,8 @@ a:hover {
   position: fixed;
   font-family: inherit;
   font-size: 40px;
-  height: 80%;
-  width: 105%;
+  height: 100%;
+  width: 100%;
 }
 
 #clockdiv {
