@@ -16,24 +16,16 @@ body {
 @media only screen and (max-width: 414px) {
 
    .main_ctn {
-      font-size: 17px;
+      font-size: 30px;
       width: 50%;
-   }
-   .zimg {
-     margin-right: 75px;
-     width: 300px;
    }
 }
 
 @media only screen and (max-width: 768px) {
 
    .main_ctn {
-      font-size: 20px;
+      font-size: 30px;
       width: 50%;
-   }
-   .zimg {
-     margin-right: 75px;
-     width: 300px;
    }
 }
 
@@ -43,15 +35,11 @@ body {
       font-size: 30px;
       width: 800px;
    }
-   .zimg {
-     margin-right: 75px;
-     width: 300px;
-   }
 }
 
 .zimg {
   margin-right: 75px;
-  width: 600px;
+  width: 700px;
 }
 
 a {
@@ -106,7 +94,7 @@ a:hover {
 .centermsg {
   display: table;
   color: inherit;
-  position: fixed;
+  position: relative;
   font-family: inherit;
   font-size: 40px;
   height: 100%;
