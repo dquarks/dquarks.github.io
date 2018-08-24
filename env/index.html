@@ -15,15 +15,15 @@
     <div class="centermsg">
       <div class="main_ctn">
         <div class="btn_ctn">
-          <div id="clck_btn"><a href=''>Shop</a></div>
-          <div id="clck_btn"><a href=''>Media</a></div>
-          <div id="clck_btn"><a href=''>Music</a></div>
-          <div id="clck_btn"><a href=''>Blog</a></div>
-          <div id="clck_btn"><a href=''>Contact</a></div>
+          <div id="clck_btn"><a id='type_o1' href='#'>Shop</a></div>
+          <div id="clck_btn"><a id='type_t1' href='#'>Media</a></div>
+          <div id="clck_btn"><a id='type_o2' href='#'>Music</a></div>
+          <div id="clck_btn"><a id='type_t2' href='#'>Blog</a></div>
+          <div id="clck_btn"><a id='type_o3' href='#'>Contact</a></div>
         </div>
       </div>
     </div>
-    <div class="clck_btn_abt"><a href=''>About</a></div>
+    <div class="clck_btn_abt"><a href='#'>About</a></div>
   </div>
     <!--<div id="clockdiv">
       <div><span class="days"></span></div>
@@ -31,19 +31,29 @@
       <div><span class="minutes"></span></div>
       <div><span class="seconds"></span></div>
     </div>-->
-    <script src="assets/scripts/japp.js"></script>
+    <script src="../assets/scripts/japp.js"></script>
     <!--<script src="assets/scripts/dylink.js"></script>-->
-    <script src="assets/scripts/bapp.js"></script>
+    <script src="../assets/scripts/bapp.js"></script>
   </body>
 
   <script>
-    /*function chng_img() {
-      var URL_1 = 'http://sloppyny.com/URL-1.jpg';
-      var URL_2 = 'http://sloppyny.com/URL-2.jpg';
-      var url = document.getElementById('dyn_img').src;
-      if(url == URL_1) { document.getElementById('dyn_img').src = URL_2; }
-      else { document.getElementById('dyn_img').src = URL_1; } }
-    setInterval(chng_img, 1500);*/
+    function btnColors() {
+      // Let's make some fake tuples...
+      var colors = ["red", "blue", "pink", "purple"];
+      var bound = colors.length / 2;
+        if((bound%2)!=0&&bound>1)bound=1;
+      var num = Math.floor(Math.random() * bound) * 2;
+
+      var type_o_pick = colors[num];
+      var type_t_pick = colors[num+1];
+      document.getElementById("type_o1").style.color = type_o_pick;
+      document.getElementById("type_t1").style.color = type_t_pick;
+      document.getElementById("type_o2").style.color = type_o_pick;
+      document.getElementById("type_t2").style.color = type_t_pick;
+      document.getElementById("type_o3").style.color = type_o_pick;
+      // console.log(type_o_pick + ', ' + type_t_pick);
+    }
+    btnColors();
   </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
