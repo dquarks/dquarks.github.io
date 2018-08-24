@@ -11,27 +11,63 @@ img {
   width: 100%;
 }
 
-#main_ctn {
+.main_ctn {
   position: relative;
-  vertical-align: middle;
+  width: 10%;
   display: table-cell;
-  bottom: 115px;
+  vertical-align: middle;
+  /*border: 10px solid green;*/
 }
 
-#centermsg {
-  display: table;
-  position: relative;
-  height: 100%;
-  left: 25%;
-  background-color: black;
+.btn_ctn {
+  width: 100%;
+  /*border: 10px solid red;*/
+}
+
+#clck_btn {
+  width: 100%;
+  color: white;
+  height: 70px;
+  display: block;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  /*border: 10px solid purple;
+  background-color: darkgrey;*/
+}
+
+.clck_btn_abt {
   width: 50%;
+  color: white;
+  height: 70px;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  transform: translateX(50%);
+  /* border: 10px solid orange;
+  background-color: darkgrey;*/
+  display: table;
+}
+
+.centermsg {
+  width: 50%;
+  height: 100%;
+  display: table;
+  /*border: 10px solid white;*/
+  background-color: black;
+  transform: translateX(50%);
+}
+
+.wrappers {
+  height: 90%;
+  display: block;
 }
 
 @media only screen and (max-width: 769px) {
 
-   #centermsg {
-      width: 70%;
-      left: 15%;
+   .centermsg {
+      width: 50%;
+      left: 10%;
    }
 
    /*body {
