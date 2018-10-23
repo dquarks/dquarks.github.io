@@ -5,35 +5,49 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="SloppyNY; street-wear, music, film">
     <link rel="icon" type="img/png" href="favicon.ico">
-    <link rel='stylesheet' type='text/css' href='assets/css/bstyle.min.css'>
     <link rel='stylesheet' type='text/css' href='assets/css/sstyle.css'>
   </head>
-
   <body>
     <!--<audio autoplay><source src="assets/sounds/" type="audio/mpeg"></audio>-->
-    <div class="wrappers">
-    <div class="centermsg">
-      <div class="main_ctn">
-        <div class="btn_ctn">
-          <div id="clck_btn"><a id='type_o1' href='#'>Shop</a></div>
-          <div id="clck_btn"><a id='type_t1' href='https://www.youtube.com/channel/UCYRnN7gbFc3RT_66Jao7wfQ'>Media</a></div>
-          <div id="clck_btn"><a id='type_o2' href='#'>Music</a></div>
-          <div id="clck_btn"><a id='type_t2' href='#'>Blog</a></div>
-          <div id="clck_btn"><a id='type_o3' href='#'>Contact</a></div>
-        </div>
-      </div>
+    <div class="main_wrapper">
+    <table class="index_tb" border="0" cellpadding="0" cellspacing="0" width=="100%">
+      <tbody>
+        <tr>
+          <td align="center" valign="top" width="125" height="50">
+            <a id='type_o1' href='#'>Shop</a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" width="125" height="50">
+            <a id='type_t1' href='#'>Media</a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" width="125" height="50">
+            <a id='type_o2' href='#'>Music</a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" width="125" height="50">
+            <a id='type_t2' href='#'>Blog</a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" width="125" height="50">
+            <a id='type_o3' href='#'>Contact</a>
+          </td>
+        </tr>
+    </table>
     </div>
-    <div class="clck_btn_abt"><a href='#'>About</a></div>
-  </div>
-    <!--<div id="clockdiv">
-      <div><span class="days"></span></div>
-      <div><span class="hours"></span></div>
-      <div><span class="minutes"></span></div>
-      <div><span class="seconds"></span></div>
-    </div>-->
-    <script src="assets/scripts/japp.js"></script>
-    <!--<script src="assets/scripts/dylink.js"></script>-->
-    <script src="assets/scripts/bapp.js"></script>
+    <div class="index_foot">
+      <a href='about/index.html'>About</a>
+    </div>
+
+
+
+
+    <!--<script src="assets/scripts/japp.js"></script>-->
+    <!--<script src="assets/scripts/bapp.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   </body>
 
@@ -68,18 +82,4 @@
     ga('create', 'UA-78884866-1', 'auto');
     ga('send', 'pageview');
   </script>
-  <!-- <script type="text/javascript">
-    var curTime = new Date().getHours();
-    if( curTime > 7 && curTime < 17 ) {
-      if(document.body) {
-        // document.body.background = "PIC_URL";
-        console.log("Day time!");
-      }
-    } else {
-      if(document.body) {
-        // document.body.background = "PIC_URL";
-        console.log("Night time!");
-      }
-    }
-  </script> -->
 </html>
