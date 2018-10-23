@@ -5,6 +5,8 @@
 
 body {
   background-color: black; /* #171716 */
+  background-image: url('giphy.gif');
+  background-size: cover;
   font-family: Retro;
 }
 
@@ -63,7 +65,6 @@ img {
   height: 100%;
   display: table;
   /*border: 10px solid white;*/
-  background-color: black;
   transform: translateX(50%);
 }
 
