@@ -80,6 +80,9 @@ a { text-decoration: none; }
      text-align: center;
      padding-top: 50%;
      z-index: 2;
+     background-image: url('IMG_0921.GIF');
+     background-size: cover;
+     background-position: center;
    }
    /*body {
      background-color: yellow;
