@@ -3,12 +3,30 @@
   src: url(Retroville_NC.ttf);
 }
 
+#splashscreen {
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:black;
+  text-align: center;
+  padding-top: 25%;
+  z-index: 2;
+  background-image: url('IMG_0921.GIF');
+  background-size: cover;
+  background-position: center;
+}
+
 body {
   background-color: white; /* #171716 */
   background-image: url('IMG_0923.GIF');
   background-size: cover;
+  background-position: center;
   font-family: Retro;
 }
+
+.blink { visibility: hidden;}
 
 .main_wrapper {
   text-align: center;
@@ -16,9 +34,7 @@ body {
   height: 50%;
 }
 
-.index_tb {
-  margin: 20% auto;
-}
+.index_tb { margin: 20% auto; }
 
 .index_foot {
   position: fixed;
@@ -30,18 +46,41 @@ body {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
+.center_message {
+  width: 50%;
+  height: 100%;
+  display: table;
+  /*border: 10px solid white;*/
+  transform: translateX(50%);
 }
+
+.text_content {
+  color: #FFFF00;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  /*border: 10px solid green;*/
+}
+
+a { text-decoration: none; }
 
 @media only screen and (max-width: 769px) {
 
    .index_tb {
       position: relative;
       top: 25%;
-
    }
 
+   #splashscreen {
+     position: absolute;
+     top:0;
+     left:0;
+     bottom:0;
+     width:100%;
+     text-align: center;
+     padding-top: 50%;
+     z-index: 2;
+   }
    /*body {
      background-color: yellow;
    }*/
@@ -51,13 +90,6 @@ a {
 
 
 
-.main_txt_ctn {
-  color: #FFFF00;
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  /*border: 10px solid green;*/
-}
 
 .main_ctn {
   position: relative;
@@ -74,14 +106,6 @@ a {
 
 #stnd_btn {
   color: #D4006D;
-}
-
-.centermsg_abt {
-  width: 50%;
-  height: 100%;
-  display: table;
-  /*border: 10px solid white;*/
-  transform: translateX(50%);
 }
 
 /*
