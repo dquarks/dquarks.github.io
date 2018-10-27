@@ -11,7 +11,7 @@
   width:100%;
   background-color:black;
   text-align: center;
-  padding-top: 25%;
+  padding-top: 250px;
   z-index: 2;
   background-image: url('IMG_0921.GIF');
   background-size: cover;
@@ -78,7 +78,7 @@ a { text-decoration: none; }
      bottom:0;
      width:100%;
      text-align: center;
-     padding-top: 50%;
+     padding-top: 250px;
      z-index: 2;
      background-image: url('IMG_0921.GIF');
      background-size: cover;
