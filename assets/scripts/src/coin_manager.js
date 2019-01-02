@@ -13,7 +13,7 @@ $(function() {
     //var rn = Math.floor(Math.random() * 20);
 
 
-    if(t == 10) {
+    if(t == 8) {
       t = 0;
       $("#"+id).css({"background-image": "url('http://sloppyny.com/assets/graphics/watermelon.png')"});
     }
