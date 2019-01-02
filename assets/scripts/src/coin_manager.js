@@ -12,7 +12,7 @@ $(function() {
     var rn = Math.floor(Math.random() * 11);
 
     //if(rn <= 4) $("#"+id).css({"background-image": "url('../graphics/alien.JPG')"});
-    console.log(rn);
+    //console.log(rn);
     baggy[n+1] = 1;
     $("#" + id).animate({"top": "100%"}, {duration: dur, complete:function(){baggy[n+1] = 0; $("#" + id).css({"top": "0%", }); //$("#" + id).css({"background-image": "url('../graphics/coin_1.png')"});
                                           }, easing: "linear"});
