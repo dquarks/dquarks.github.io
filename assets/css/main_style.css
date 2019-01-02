@@ -20,8 +20,8 @@
 }
 
 body {
-  background-color: white; /* #171716 */
-  background-image: url('IMG_0923.GIF');
+  background-color: black; /* #171716 */
+  /*background-image: url('IMG_0923.GIF');*/
   background-size: cover;
   background-position: center;
   font-family: Retro;
@@ -35,7 +35,7 @@ body {
   height: 50%;
 }
 
-.index_tb { margin: 20% auto; }
+.index_tb { margin: 20% auto; z-index: 2; }
 
 .index_foot {
   position: fixed;
@@ -61,6 +61,37 @@ body {
   display: table-cell;
   vertical-align: middle;
   /*border: 10px solid green;*/
+}
+
+.sat {
+  position: fixed;
+  width: 65px;
+  height: 60px;
+  z-index: -1;
+  left: -20%;
+}
+
+.pip {
+  position: fixed;
+  width: 65px;
+  height: 60px;
+  left: 20%;
+  top: 0%;
+  z-index: 2;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.gcoin {
+  position: fixed;
+  width: 65px;
+  height: 60px;
+  left: 20%;
+  top: 0%;
+  background-image: url('../graphics/coin_1.png');
+  background-size: contain;
+
 }
 
 a { text-decoration: none; }
